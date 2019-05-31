@@ -2376,6 +2376,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Logo Cambá */
+	.logo-camba {
+		width: 2em;
+	}
+
 /* List */
 
 	ol {

@@ -240,6 +240,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.header-text {
+		padding-top: 7em;
+	}
+
 /* Container */
 
 	.container {
@@ -270,6 +274,10 @@ input, select, textarea {
 
 		.container.max {
 			width: 100%;
+		}
+
+		.header-text {
+			padding-top: 6.5em;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -531,6 +539,18 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 4em;
 				}
+
+		@media screen and (max-width: 1650px) {
+			.header-text {
+				padding-top: 6.5em !important;
+			}
+		}
+
+		@media screen and (max-width: 1920px) {
+			.header-text {
+				padding-top: 6.5em;
+			}
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -1019,7 +1039,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 4em;
 						}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1264,7 +1283,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 4em;
 						}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1999,8 +2017,8 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 4em;
 						}
-
 		}
+
 
 /* Section/Article */
 

@@ -244,6 +244,17 @@ input, select, textarea {
 		padding-top: 7em;
 	}
 
+	.download-button {
+    display: inline-flex;
+		margin-top: 8px;
+	}
+
+	.download-button img {
+		width: 37px;
+    margin-right: 8px;
+    padding-bottom: 6px;
+	}
+
 /* Container */
 
 	.container {
@@ -2711,7 +2722,7 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.9em;
 		font-weight: 400;
-		height: 2.75em;
+		height: 3.75em;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
 		padding: 0 2em;
@@ -3409,7 +3420,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				height: 3em;
+				height: 3.75em;
 				line-height: 3em;
 			}
 

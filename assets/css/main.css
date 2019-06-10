@@ -246,7 +246,8 @@ input, select, textarea {
 
 	.download-button {
     display: inline-flex;
-		margin-top: 8px;
+		margin-top: 9.5px;
+		height: 100%;
 	}
 
 	.download-button img {
@@ -297,12 +298,32 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+			.download-button {
+				display: inline-flex;
+				align-items: center;
+				height: 100%;
+			}
+
+			.download-button img {
+				margin: 4px 8px 0px 0px;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.container {
 				max-width: calc(100% - 3em);
+			}
+
+			.download-button {
+				display: inline-flex;
+				align-items: center;
+				height: 100%;
+			}
+
+			.download-button img {
+				margin: 4px 8px 0px 0px;
 			}
 
 		}

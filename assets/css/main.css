@@ -3263,6 +3263,10 @@ input, select, textarea {
 					padding: 0;
 				}
 
+		#footer .pe-logo {
+			width: 3.5em;
+			margin: 0em 0em 2em 0em;
+		}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

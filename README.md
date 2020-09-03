@@ -1,2 +1,0 @@
-# adc-landing-lat
-

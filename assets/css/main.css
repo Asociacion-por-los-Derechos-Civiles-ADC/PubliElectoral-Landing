@@ -3264,9 +3264,20 @@ input, select, textarea {
 					padding: 0;
 				}
 
-		#footer .pe-logo {
+		#footer .adc-logo {
 			width: 8em;
-			margin: 0em 0em 2em 0em;
+			vertical-align: middle;
+			margin-right: 1em;
+		}
+
+		#footer .dd-logo {
+			width: 11em;
+			vertical-align: middle;
+			margin-left: 1em;
+		}
+
+		#footer .logos {
+			margin-bottom: 2em;
 		}
 
 /* FAQ's */
@@ -3523,20 +3534,28 @@ input, select, textarea {
 				padding: 2em 1.5em 2em 1.5em ;
 			}
 
-				#footer .copyright {
-					margin: 1.5em 0 0 0;
-				}
+			#footer .copyright {
+				margin: 1.5em 0 0 0;
+			}
 
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
+			#footer .copyright li {
+				border: 0;
+				display: block;
+				margin: 1em 0 0 0;
+				padding: 0;
+			}
 
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
+			#footer .copyright li:first-child {
+				margin-top: 0;
+			}
+
+			#footer .adc-logo {
+				width: 6em;
+			}
+
+			#footer .dd-logo {
+				width: 9em;
+			}
 
 	}
 
@@ -3566,6 +3585,14 @@ input, select, textarea {
 
 			#footer {
 				padding: 2em 1em 2em 1em ;
+			}
+
+			#footer .adc-logo {
+				width: 4em;
+			}
+
+			#footer .dd-logo {
+				width: 6em;
 			}
 
 	}

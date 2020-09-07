@@ -246,7 +246,9 @@ input, select, textarea {
 
 	.download-button {
     display: inline-flex;
-		margin-top: 9.5px;
+		margin-top: auto;
+		margin-bottom: auto;
+		align-items: center;
 		height: 100%;
 	}
 

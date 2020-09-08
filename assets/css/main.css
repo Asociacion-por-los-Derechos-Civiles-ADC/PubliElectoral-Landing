@@ -257,6 +257,10 @@ input, select, textarea {
     padding-bottom: 6px;
 	}
 
+	.no-underline {
+		border-bottom: none;
+	}
+
 /* Container */
 
 	.container {
@@ -3550,11 +3554,11 @@ input, select, textarea {
 			}
 
 			#footer .adc-logo {
-				width: 6em;
+				width: 5em;
 			}
 
 			#footer .dd-logo {
-				width: 9em;
+				width: 7em;
 			}
 
 	}

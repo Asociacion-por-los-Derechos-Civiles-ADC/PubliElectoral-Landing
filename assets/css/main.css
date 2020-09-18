@@ -3600,3 +3600,26 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* Full width responsive youtube video */
+.youtube-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+	margin-bottom: 4em;
+}
+
+.youtube-full-width-responsive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+#two {
+	padding-top: 4em;
+}
+/* Full width responsive youtube video */

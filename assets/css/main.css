@@ -319,6 +319,10 @@ input, select, textarea {
 				margin: 4px 8px 0px 0px;
 			}
 
+			#app-tutorial {
+				margin-bottom: 20px;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -335,6 +339,10 @@ input, select, textarea {
 
 			.download-button img {
 				margin: 4px 8px 0px 0px;
+			}
+
+			#app-tutorial {
+				margin-bottom: 20px;
 			}
 
 		}

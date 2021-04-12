@@ -252,6 +252,11 @@ input, select, textarea {
 		height: 100%;
 	}
 
+	.download-button-icon-image {
+		display: flex;
+		align-items: center;
+	}
+
 	.download-button img {
     margin-right: 8px;
     padding-bottom: 6px;
@@ -2319,6 +2324,12 @@ input, select, textarea {
 		}
 
 /* Icon */
+
+	.android-icon {
+		font-size: 30px;
+		color: #a4c639;
+	}
+
 
 	.icon {
 		text-decoration: none;

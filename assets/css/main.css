@@ -253,8 +253,8 @@ input, select, textarea {
 	}
 
 	.plugin-button {
-		margin-left: 2em;
-		margin-right: 2px;
+		margin-left: 4em;
+		margin-right: 4px;
 	}
 
 	.download-button-icon-image {
@@ -607,7 +607,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1920px) {
 			.navigator-install-plugin-title {
-				margin-top: 5em;
+				margin-top: 3em;
 			}
 			.header-text {
 				padding-top: 6.5em;

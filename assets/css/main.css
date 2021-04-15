@@ -252,6 +252,11 @@ input, select, textarea {
 		height: 100%;
 	}
 
+	.plugin-button {
+		margin-left: 2em;
+		margin-right: 2px;
+	}
+
 	.download-button-icon-image {
 		display: flex;
 		align-items: center;
@@ -343,6 +348,10 @@ input, select, textarea {
 
 			#app-tutorial {
 				margin-bottom: 20px;
+			}
+
+			.navigator-install-plugin-title {
+				margin-top: 3em;
 			}
 
 		}
@@ -597,6 +606,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1920px) {
+			.navigator-install-plugin-title {
+				margin-top: 5em;
+			}
 			.header-text {
 				padding-top: 6.5em;
 			}
@@ -1335,6 +1347,18 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.que-es-publielectoral-video {
+				margin-bottom: 2em !important;
+			}
+
+			.plugin-button {
+				margin: 0 auto;
+			}
+
+			.navigator-install-plugin-title {
+				margin-top: 3em;
+			}
 
 			.row {
 				display: flex;

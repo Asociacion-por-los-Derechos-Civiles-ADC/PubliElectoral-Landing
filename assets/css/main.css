@@ -228,6 +228,45 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
+	.informes-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding-bottom: 1em;
+		min-height: 200px;
+		width: 100%;
+	}
+
+	.informes-container-buttons {
+		display: flex;
+		justify-content: space-around;
+		width: 48%;
+	}
+
+	.informes-container-buttons a {
+		border-bottom: none;
+	}
+
+	.informes-container h3 {
+		font-size: 30px;
+	}
+
+	.informes-button {
+		display: inline-flex;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 8px;
+		margin-right: 8px;
+		align-items: center;
+		width: 200px;
+		height: 5px;
+	}
+
+	.informes-button span {
+		border-bottom: dotted 1px #666;
+	}
+
 	.align-left {
 		text-align: left;
 	}
@@ -352,6 +391,23 @@ input, select, textarea {
 
 			.navigator-install-plugin-title {
 				margin-top: 3em;
+			}
+
+			.informes-container-buttons {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				justify-content: space-around;
+			}
+
+			.informes-container-buttons a {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+
+			.informes-button {
+				display: inline-block;
+				margin: 0 auto;
 			}
 
 		}
@@ -3196,7 +3252,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 0 0 6em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;

@@ -670,6 +670,12 @@ input, select, textarea {
 			}
 		}
 
+		@media screen and (min-width: 1820px) {
+			.informes-container-buttons {
+				width: 36% !important;
+			}
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.row {

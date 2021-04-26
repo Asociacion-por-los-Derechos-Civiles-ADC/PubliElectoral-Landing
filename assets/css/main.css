@@ -233,39 +233,77 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		padding-bottom: 1em;
-		min-height: 200px;
+		padding: 128px 0px 85.3333px;
+		min-height: 300px;
 		width: 100%;
+		background-color: #fff;
+		color: #555;
+	}
+
+	.informes-header-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.informes-header-container header.major:after {
+		background: rgba(255, 255, 255, 0.5);
+		content: '';
+		display: inline-none;
+		height: 1px;
+		margin-top: 1.5em;
+		width: 6em;
 	}
 
 	.informes-container-buttons {
 		display: flex;
 		justify-content: space-around;
-		width: 48%;
+		width: 100%;
+		margin-top: 2em;
 	}
 
-	.informes-container-buttons a {
-		border-bottom: none;
+	.informes-container-buttons div a {
+		border-bottom: dotted 1px #000 !important;
+		font-size: 26.6667px;
 	}
 
-	.informes-container h3 {
-		font-size: 30px;
+	.informes-container-buttons div a:hover {
+		border-bottom: none !important;
+		color: #666 !important;
+	}
+
+	.informes-container-buttons div {
+		width: 50%;
 	}
 
 	.informes-button {
 		display: inline-flex;
 		margin-top: auto;
 		margin-bottom: auto;
-		margin-left: 8px;
-		margin-right: 8px;
 		align-items: center;
-		width: 200px;
+		width: 100%;
 		height: 5px;
 	}
 
 	.informes-button span {
 		border-bottom: dotted 1px #666;
 	}
+
+	#informe-arg {
+		width: 350px !important;
+	}
+
+	#informe-chile {
+		width: 275px !important;
+	}
+
+	#plebicitoChile2020 {
+		float: right;
+	}
+
+	#eleccionesArg2019 {
+		float: left;
+	}
+
 
 	.align-left {
 		text-align: left;
@@ -371,6 +409,28 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.informes-header-container header.major:after {
+				background: rgba(144, 144, 144, 0.5);
+				content: '';
+				display: none;
+				height: 1px;
+				margin-top: 1.5em;
+				width: 6em;
+			}
+
+			.informes-container-buttons div#informe-chile {
+				margin-top: 2em;
+				margin-bottom: 3em;
+			}
+
+			#plebicitoChile2020 {
+				font-size: 16px;
+			}
+
+			#eleccionesArg2019 {
+				font-size: 16px;
+			}
+
 			.container {
 				max-width: calc(100% - 3em);
 			}
@@ -400,14 +460,34 @@ input, select, textarea {
 				justify-content: space-around;
 			}
 
-			.informes-container-buttons a {
+			.informes-container-buttons div {
 				margin-top: 15px;
 				margin-bottom: 15px;
+			}
+
+			.informes-container-buttons div a {
+				font-size: 16px;
 			}
 
 			.informes-button {
 				display: inline-block;
 				margin: 0 auto;
+			}
+
+			#informe-arg {
+				width: 100% !important;
+			}
+
+			#informe-chile {
+				width: 100% !important;
+			}
+
+			#informe-arg a {
+				float: initial !important;
+			}
+
+			#informe-chile a {
+				float: initial !important;
 			}
 
 		}
@@ -672,7 +752,7 @@ input, select, textarea {
 
 		@media screen and (min-width: 1820px) {
 			.informes-container-buttons {
-				width: 36% !important;
+				/* width: 36% !important; */
 			}
 		}
 
@@ -1409,6 +1489,22 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.informes-container-buttons {
+				margin-bottom: 3em;
+			}
+
+			#plebicitoChile2020 {
+				font-size: 16px;
+			}
+
+			#eleccionesArg2019 {
+				font-size: 16px;
+			}
+
+			.informes-container-buttons div a {
+				font-size: 16px;
+			}
 
 			.que-es-publielectoral-video {
 				margin-bottom: 2em !important;
@@ -3488,6 +3584,10 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		.informes-container-buttons div a {
+			font-size: 21.6667px;
+		}
 
 		/* List */
 

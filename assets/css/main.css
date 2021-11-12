@@ -288,6 +288,80 @@ input, select, textarea {
 		border-bottom: dotted 1px #666;
 	}
 
+	/* .policy-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 2em;
+	} */
+
+	.policy-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 128px 0px 85.3333px;
+		min-height: 300px;
+		width: 100%;
+		background-color: #fff;
+		color: #555;
+	}
+
+	.policy-header-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.policy-header-container header.major:after {
+		background: rgba(255, 255, 255, 0.5);
+		content: '';
+		display: inline-none;
+		height: 1px;
+		margin-top: 1.5em;
+		width: 100%;
+	}
+
+	.policy-container-buttons {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	.policy-container-buttons div a {
+		border-bottom: dotted 1px #000 !important;
+		font-size: 26.6667px;
+	}
+
+	.policy-container-buttons div a:hover {
+		border-bottom: none !important;
+		color: #666 !important;
+	}
+
+	.policy-container-buttons div {
+		width: 100%;
+	}
+
+	.policy-button {
+		display: inline-flex;
+		margin-top: auto;
+		margin-bottom: auto;
+		align-items: center;
+		width: 100%;
+		height: 5px;
+	}
+
+	.policy-button span {
+		border-bottom: dotted 1px #666;
+	}
+
+	#policy-fb {
+		display: flex;
+		justify-content: center;
+		width: 100% !important;
+	}
+
 	#informe-arg {
 		width: 350px !important;
 	}
@@ -488,6 +562,27 @@ input, select, textarea {
 
 			#informe-chile a {
 				float: initial !important;
+			}
+
+			.policy-container-buttons {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				justify-content: space-around;
+			}
+
+			.policy-container-buttons div {
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+
+			.policy-container-buttons div a {
+				font-size: 16px;
+			}
+
+			.policy-button {
+				display: inline-block;
+				margin: 0 auto;
 			}
 
 		}
@@ -1493,6 +1588,9 @@ input, select, textarea {
 			.informes-container-buttons {
 				margin-bottom: 3em;
 			}
+			.policy-container-buttons {
+				margin-bottom: 3em;
+			}
 
 			#plebicitoChile2020 {
 				font-size: 16px;
@@ -1503,6 +1601,9 @@ input, select, textarea {
 			}
 
 			.informes-container-buttons div a {
+				font-size: 16px;
+			}
+			.policy-container-buttons div a {
 				font-size: 16px;
 			}
 

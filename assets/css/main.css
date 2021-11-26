@@ -256,8 +256,8 @@ input, select, textarea {
 
 	.informes-container-buttons {
 		display: flex;
-		justify-content: space-around;
-		width: 100%;
+		justify-content: space-between;
+		width: 100% !important;
 		margin-top: 2em;
 	}
 
@@ -271,9 +271,9 @@ input, select, textarea {
 		color: #666 !important;
 	}
 
-	.informes-container-buttons div {
-		width: 50%;
-	}
+	/* .informes-container-buttons div {
+		width: 100%;
+	} */
 
 	.informes-button {
 		display: inline-flex;
@@ -362,10 +362,6 @@ input, select, textarea {
 		width: 100% !important;
 	}
 
-	#informe-arg {
-		width: 350px !important;
-	}
-
 	#informe-chile {
 		width: 275px !important;
 	}
@@ -378,6 +374,18 @@ input, select, textarea {
 		float: left;
 	}
 
+	#documentos-2019 {
+		justify-content: space-around !important;
+		width: 100% !important;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#documentos-2021 {
+		width: 100% !important;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
 	.align-left {
 		text-align: left;
@@ -548,7 +556,7 @@ input, select, textarea {
 				margin: 0 auto;
 			}
 
-			#informe-arg {
+			#informe {
 				width: 100% !important;
 			}
 
@@ -556,7 +564,7 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
-			#informe-arg a {
+			#informe a {
 				float: initial !important;
 			}
 

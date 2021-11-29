@@ -356,6 +356,11 @@ input, select, textarea {
 		border-bottom: dotted 1px #666;
 	}
 
+	#coming {
+		display: flex;
+		justify-content: center;
+	}
+
 	#policy-fb {
 		display: flex;
 		justify-content: center;

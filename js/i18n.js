@@ -182,7 +182,11 @@ $(document).ready(function () {
             toggleFlags(enDesktopFlagsIds, lang)
         } else if (isPortugese(lang) && isDesktop()) {
             toggleFlags(enDesktopFlagsIds, lang)
-        }
+		} else if (isPortugese(lang) && isMobile()) {
+			toggleFlags(enDesktopFlagsIds, lang)
+		} else if (isEnglish(lang) && isMobile()) {
+			toggleFlags(enDesktopFlagsIds, lang)
+		}
 	}
 	
 	function toggleFlags(flags, lang) {

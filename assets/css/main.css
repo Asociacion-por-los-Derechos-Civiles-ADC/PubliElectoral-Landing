@@ -3634,29 +3634,33 @@ input, select, textarea {
 					padding: 0;
 				}
 
-		#footer .adc-logo {
-			width: 8em;
-			vertical-align: middle;
-			margin-right: 1em;
-		}
+				#footer div.partners {
+					display: flex;
+					flex-direction: row;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					width: 100%;
+					padding: 20px;
+				}
+	
+				#footer .partners div {
+					width: 200px;
+					margin: 0 auto;
+					padding-top: 5px;
+				}
+	
+				#footer div.partners div a img {
+					width: 200px;
+				}
+	
+				#footer div.partners span {
+					align-self: center;
+				}
+	
+				img.dd-logo {
+					padding-top: 10px;
+				}
 
-		#footer .dd-logo {
-			width: 11em;
-			vertical-align: middle;
-			margin-left: 1em;
-			margin-right: 1em;
-		}
-
-		#footer .article19-logo {
-			width: 12em;
-			vertical-align: middle;
-			padding-bottom: 1em;
-			margin-right: 1em;
-		}
-
-		#footer .logos {
-			margin-bottom: 2em;
-		}
 
 /* FAQ's */
 #faq #header {
@@ -3686,6 +3690,33 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 0 6em 0 ;
+			}
+
+			#footer div.partners {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				width: 100%;
+				padding: 20px;
+			}
+
+			#footer .partners div {
+				width: 200px;
+				margin: 0 auto;
+				padding-top: 5px;
+			}
+
+			#footer div.partners div a img {
+				width: 200px;
+			}
+
+			#footer div.partners span {
+				align-self: center;
+			}
+
+			img.dd-logo {
+				padding-top: 10px;
 			}
 
 	}
@@ -3742,6 +3773,31 @@ input, select, textarea {
 			#footer {
 				padding: 4em 0 4em 0 ;
 				background-attachment: scroll;
+			}
+			#footer div.partners {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				width: 100%;
+			}
+
+			#footer .partners div {
+				width: 200px;
+				margin: 0 auto;
+				padding-top: 5px;
+			}
+
+			#footer div.partners div a img {
+				width: 200px;
+			}
+
+			#footer div.partners span {
+				align-self: center;
+			}
+
+			img.dd-logo {
+				padding-top: 10px;
 			}
 
 	}
@@ -3879,6 +3935,29 @@ input, select, textarea {
 				padding: 3em 1.5em 3em 1.5em ;
 			}
 
+			#footer div.partners {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				width: 100%;
+			}
+
+			#footer .partners div {
+				width: 200px;
+				margin: 0 auto;
+				padding: 5px;
+			}
+
+			#footer div.partners div a img {
+				width: 200px;
+			}
+
+			#footer div.partners span {
+				align-self: center;
+				margin: 4px;
+			}
+
 	}
 
 /* XSmall */
@@ -3930,15 +4009,7 @@ input, select, textarea {
 			#footer .copyright li:first-child {
 				margin-top: 0;
 			}
-
-			#footer .adc-logo {
-				width: 5em;
-			}
-
-			#footer .dd-logo {
-				width: 7em;
-			}
-
+		
 	}
 
 /* XXSmall */
@@ -3967,14 +4038,6 @@ input, select, textarea {
 
 			#footer {
 				padding: 2em 1em 2em 1em ;
-			}
-
-			#footer .adc-logo {
-				width: 4em;
-			}
-
-			#footer .dd-logo {
-				width: 6em;
 			}
 
 	}

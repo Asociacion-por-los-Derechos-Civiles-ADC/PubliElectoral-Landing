@@ -173,7 +173,12 @@ var translationsJson = {
 			"policy": {
 				"en": "Privacy policy",
 				"es": "Políticas de Privacidad",
-				"pt": "Políticas de Privacidade"
+				"pt": "Políticas de Privacidade",
+			},
+			"policy-pdf": {
+				"en": "./policy/en/Privacy_Policy_of_PubliElectoral.pdf",
+				"es": "./policy/es/Política_de_Privacidad_PubliElectoral.pdf",
+				"pt": "./policy/pt/Politica_de_Privacidade_PubliElectoral.pdf"
 			}
 		},
 		"section-four": {
@@ -376,10 +381,13 @@ var translationsJson = {
 				$('[data-i18n="'+key+'"]').text(contents.prop(key)[this.language]);
 				$('[data-i18n-placeholder="'+key+'"]').attr('placeholder', contents.prop(key)[this.language]);
 				$('[data-i18n-value="'+key+'"]').attr('value', contents.prop(key)[this.language]);
+				$('[data-i18n-policy-file="'+key+'"]').attr('href', contents.prop(key)[this.language]);
 			} else {
-				$('[data-i18n="'+key+'"]').text(contents.prop(key)['en']);
-				$('[data-i18n-placeholder="'+key+'"]').attr('placeholder', contents.prop(key)['en']);
-				$('[data-i18n-value="'+key+'"]').attr('value', contents.prop(key)['en']);
+				$('[data-i18n="'+key+'"]').text(contents.prop(key)['es']);
+				$('[data-i18n-placeholder="'+key+'"]').attr('placeholder', contents.prop(key)['es']);
+				$('[data-i18n-value="'+key+'"]').attr('value', contents.prop(key)['es']);
+				$('[data-i18n-policy-file="'+key+'"]').attr('href').replace("",  contents.prop(key)['es']);
+				$('[data-i18n-policy-file="'+key+'"]').attr('href', contents.prop(key)['es']);
 			}
 		}
 	};

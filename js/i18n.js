@@ -405,6 +405,8 @@ $(document).ready(function () {
 	}
 	localStorage.setItem('plang', lang)
 	selectLang($(this), lang);
+	i18n.lang(lang);
+	$('.dropdown-menu').hide();
 
 	// Ocultar y mostrar dropdown menu de idiomas.
 	$('.fa-chevron-down').css('cursor', 'pointer')
@@ -414,7 +416,7 @@ $(document).ready(function () {
 	$('.fa-chevron-down').on('click', dropdownAction)
 	$('#dropdownMenuButton').on('click', dropdownAction)
     
-	$('.lang-picker #spanish').addClass('selected');
+	
 	
     $('.lang-picker #english').on('click', function () {
         i18n.lang('en');

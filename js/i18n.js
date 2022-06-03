@@ -302,6 +302,18 @@ var translationsJson = {
 				"es": "Volver a la página principal",
 				"pt": "Voltar à Página Inicial"
 			}
+		},
+		"section-coming": {
+			"title": {
+				"en": "We are working on the report",
+				"es": "Estamos trabajando en el informe",
+				"pt": "Estamos trabalhando no relatório"
+			},
+			"back": {
+				"en": "Return to main page",
+				"es": "Volver a la Página Principal",
+				"pt": "Voltar à Página Inicial"
+			}
 		}
 	}
 };

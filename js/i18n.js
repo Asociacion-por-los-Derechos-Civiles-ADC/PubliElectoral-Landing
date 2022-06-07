@@ -11,10 +11,10 @@
  */
 var translationsJson = {
 	"landing": {
-        "lang": {
-            "en": "English",
-            "es": "Español",
-            "pt": "Português"
+    "lang": {
+      "en": "English",
+      "es": "Español",
+      "pt": "Português"
 		},
 		"section-header": {
 			"description": {
@@ -63,6 +63,11 @@ var translationsJson = {
 					"en": "It is an application for smartphones and a  browser extension that  collects information related to electoral advertising on social networks.",
 					"es": "Es una aplicación para celulares y una extensión para navegadores que permite la recolección de información relativa a la publicidad electoral en las redes sociales.",
 					"pt": "É um aplicativo para celulares e uma extensão para navegadores que permitem a coleta da informação relativa à publicidade eleitoral nas redes sociais."
+				},
+				"subtitles": {
+					"en": "Subtitles available in English.",
+					"es": "Subtítulos disponibles en Español.",
+					"pt": "Legendas disponíveis em Português",
 				}
 			}
 		},
@@ -290,10 +295,22 @@ var translationsJson = {
 						"es": "¿Cómo surgió PubliElectoral?",
 						"pt": "Como surgiu o PubliElectoral?"
 					},
+					"report": {
+						"en": "here.",
+						"es": "aquí.",
+						"pt": "aqui."
+					},
 					"answer": {
-						"en": "PubliElectoral arose from the need to have an independent measurement tool for campaign ads on social networks, with the cooperation of citizens/internet users. The use of social networks as political campaign and advertising platforms grew worldwide. Political parties invest large sums of money in them, taking advantage of the lack of regulations that still exist for the accountability of internet advertising funds. Technology companies, on the other hand, do their work as private companies: they receive the money and turn it into ads, without asking too much where it comes from, unless some external actor demands explanations. This scheme makes possible some discretionalities in the financing and accountability of electoral expenses. The lack of transparency surrounding the practices, uses and financing of electoral advertising on the Internet and social networks is a concern that is progressively becoming part of the agenda of more and more actors. In this context, ADC started this project with a research for the 2019 presidential campaign in Argentina, which can be consulted here. In 2020, together with Derechos Digitales, we analyze the Constitutional Referendum in Chile. In 2021 we analyzed the federal elections in Mexico, the legislative elections in Argentina and the presidential election in Chile. During 2022 we will analyze the constitutional plebiscite in Chile and the presidential election in Brazil.",
-						"es": "PubliElectoral surgió de la necesidad de tener una herramienta de medición independiente de anuncios de campaña en redes sociales, que cuente con la cooperación de los ciudadanos/usuarios de internet. El uso de las redes sociales como plataformas de campaña política y publicidad creció en todo el mundo. Los partidos políticos invierten grandes sumas de dinero en ellas, tomando ventaja de la falta de regulaciones que todavía existen para la rendición de fondos en concepto de publicidad en internet. Las empresas de tecnología, por otro lado, hacen su trabajo como empresas privadas: reciben el dinero y lo convierten en avisos, sin preguntar demasiado de dónde proviene, excepto que algún actor externo les exija explicaciones. Este esquema posibilita algunas discrecionalidades en el financiamiento y en la rendición de gastos electorales. La falta de transparencia que envuelve a las prácticas, los usos y el financiamiento de la publicidad electoral en internet y redes sociales es una preocupación que, de manera progresiva, se instala en la agenda de cada vez más actores. En este contexto, ADC inició este proyecto con una investigación para la campaña presidencial en la Argentina en 2019, que puede consultarse aquí. En 2020, junto a Derechos Digitales, se sumó el análisis del Referéndum Constitucional en Chile. En 2021 analizaremos las elecciones de México junto a la organización Artículo 19.",
-						"pt": "O PubliElectoral surgiu a partir da necessidade de ter una ferramenta de medição independente de anúncios de campanha nas redes sociais, que conte com a cooperação dos cidadãos/usuários da internet. O uso das redes sociais como plataformas de campanha política e a publicidade cresceu em todo o mundo. Os partidos políticos investem grandes somas de dinheiro nelas, levando vantagem da falta de regulações que ainda existem para a prestação de contas pelos fundos utilizados em conceito de publicidade na internet.As empresas de tecnologia, por outra parte, fazem seu trabalho como empresas privadas: recebem o dinheiro e o convertem em avisos, sem perguntar demais de onde provém, exceto que algum ator externo lhes exija explicações. Este esquema possibilita algumas discricionaridades no financiamento e na prestação de contas de gastos eleitorais. A falta de transparência que rodeia as práticas, os usos e o financiamento da publicidade eleitoral na internet e nas redes sociais é uma preocupação que, de maneira progressiva, está se instalando na agenda de cada vez mais atores. Neste contexto, a ADC iniciou este projeto com una pesquisa para a campanha presidencial na Argentina em 2019, que pode ser consultada aqui. Em 2020, com a Derechos Digitales, somou-se à análise do Referendo Constitucional no Chile. Em 2021 analisamos as eleições federais do México, as eleições legislativas na Argentina e a eleição presidencial no Chile. Durante 2022 analisaremos o Plebiscito Constitucional no Chile e as eleições presidenciais no Brasil."
+						"1": {
+							"en": "PubliElectoral arose from the need to have an independent measurement tool for campaign ads on social networks, with the cooperation of citizens/internet users. The use of social networks as political campaign and advertising platforms grew worldwide. Political parties invest large sums of money in them, taking advantage of the lack of regulations that still exist for the accountability of internet advertising funds. Technology companies, on the other hand, do their work as private companies: they receive the money and turn it into ads, without asking too much where it comes from, unless some external actor demands explanations. This scheme makes possible some discretionalities in the financing and accountability of electoral expenses. The lack of transparency surrounding the practices, uses and financing of electoral advertising on the Internet and social networks is a concern that is progressively becoming part of the agenda of more and more actors. In this context, ADC started this project with a research for the 2019 presidential campaign in Argentina, which can be consulted ",
+							"es": "PubliElectoral surgió de la necesidad de tener una herramienta de medición independiente de anuncios de campaña en redes sociales, que cuente con la cooperación de los ciudadanos/usuarios de internet. El uso de las redes sociales como plataformas de campaña política y publicidad creció en todo el mundo. Los partidos políticos invierten grandes sumas de dinero en ellas, tomando ventaja de la falta de regulaciones que todavía existen para la rendición de fondos en concepto de publicidad en internet. Las empresas de tecnología, por otro lado, hacen su trabajo como empresas privadas: reciben el dinero y lo convierten en avisos, sin preguntar demasiado de dónde proviene, excepto que algún actor externo les exija explicaciones. Este esquema posibilita algunas discrecionalidades en el financiamiento y en la rendición de gastos electorales. La falta de transparencia que envuelve a las prácticas, los usos y el financiamiento de la publicidad electoral en internet y redes sociales es una preocupación que, de manera progresiva, se instala en la agenda de cada vez más actores. En este contexto, ADC inició este proyecto con una investigación para la campaña presidencial en la Argentina en 2019, que puede consultarse ",
+							"pt": "O PubliElectoral surgiu a partir da necessidade de ter una ferramenta de medição independente de anúncios de campanha nas redes sociais, que conte com a cooperação dos cidadãos/usuários da internet. O uso das redes sociais como plataformas de campanha política e a publicidade cresceu em todo o mundo. Os partidos políticos investem grandes somas de dinheiro nelas, levando vantagem da falta de regulações que ainda existem para a prestação de contas pelos fundos utilizados em conceito de publicidade na internet.As empresas de tecnologia, por outra parte, fazem seu trabalho como empresas privadas: recebem o dinheiro e o convertem em avisos, sem perguntar demais de onde provém, exceto que algum ator externo lhes exija explicações. Este esquema possibilita algumas discricionaridades no financiamento e na prestação de contas de gastos eleitorais. A falta de transparência que rodeia as práticas, os usos e o financiamento da publicidade eleitoral na internet e nas redes sociais é uma preocupação que, de maneira progressiva, está se instalando na agenda de cada vez mais atores. Neste contexto, a ADC iniciou este projeto com una pesquisa para a campanha presidencial na Argentina em 2019, que pode ser consultada "
+						},
+						"2": {
+							"en": " In 2020, together with Derechos Digitales, we analyze the Constitutional Referendum in Chile. In 2021 we analyzed the federal elections in Mexico, the legislative elections in Argentina and the presidential election in Chile. During 2022 we will analyze the constitutional plebiscite in Chile and the presidential election in Brazil.",
+							"es": " En 2020, junto a Derechos Digitales, se sumó el análisis del Referéndum Constitucional en Chile. En 2021 analizaremos las elecciones de México junto a la organización Artículo 19.",
+							"pt": " Em 2020, com a Derechos Digitales, somou-se à análise do Referendo Constitucional no Chile. Em 2021 analisamos as eleições federais do México, as eleições legislativas na Argentina e a eleição presidencial no Chile. Durante 2022 analisaremos o Plebiscito Constitucional no Chile e as eleições presidenciais no Brasil."
+						}
 					}
 				}
 			},
@@ -401,6 +418,9 @@ var translationsJson = {
 				$('[data-i18n-policy-file="'+key+'"]').attr('href').replace("",  contents.prop(key)['es']);
 				$('[data-i18n-policy-file="'+key+'"]').attr('href', contents.prop(key)['es']);
 			}
+			if (key === "landing.section-one.what-is-publielectoral.subtitles") {
+				$('[data-i18n="'+key+'"]').attr('hidden', this.language === 'es');
+			}
 		}
 	};
 }).apply(window);
@@ -447,28 +467,28 @@ $(document).ready(function () {
 	})
 
     function selectLang(picker, lang) {
-        $('.lang-picker li').removeClass('selected')
-        picker.addClass('selected')
- 		enDesktopFlagsIds = {
-			'es': 'images/AR.svg',
-			'en': 'images/US.svg',
-			'pt': 'images/BR.svg'
-		}
+      $('.lang-picker li').removeClass('selected')
+      picker.addClass('selected')
+      enDesktopFlagsIds = {
+        'es': 'images/AR.svg',
+        'en': 'images/US.svg',
+        'pt': 'images/BR.svg'
+      }
 
-        if (isSpanish(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isSpanish(lang) && isMobile()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isEnglish(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isPortugese(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-		} else if (isPortugese(lang) && isMobile()) {
-			toggleFlags(enDesktopFlagsIds, lang)
-		} else if (isEnglish(lang) && isMobile()) {
-			toggleFlags(enDesktopFlagsIds, lang)
-		}
-	}
+      if (isSpanish(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isSpanish(lang) && isMobile()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isEnglish(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isPortugese(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isPortugese(lang) && isMobile()) {
+        toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isEnglish(lang) && isMobile()) {
+        toggleFlags(enDesktopFlagsIds, lang)
+      }
+    }
 	
 	function toggleFlags(flags, lang) {		
 		$('#currentFlag').attr('src', flags[lang])

@@ -420,6 +420,7 @@ var translationsJson = {
 			}
 			if (key === "landing.section-one.what-is-publielectoral.subtitles") {
 				$('[data-i18n="'+key+'"]').attr('hidden', this.language === 'es');
+				$('div#mainfaqs').css({'margin-top': '40px'});
 			}
 		}
 	};

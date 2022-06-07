@@ -11,10 +11,10 @@
  */
 var translationsJson = {
 	"landing": {
-        "lang": {
-            "en": "English",
-            "es": "Español",
-            "pt": "Português"
+    "lang": {
+      "en": "English",
+      "es": "Español",
+      "pt": "Português"
 		},
 		"section-header": {
 			"description": {
@@ -447,28 +447,28 @@ $(document).ready(function () {
 	})
 
     function selectLang(picker, lang) {
-        $('.lang-picker li').removeClass('selected')
-        picker.addClass('selected')
- 		enDesktopFlagsIds = {
-			'es': 'images/AR.svg',
-			'en': 'images/US.svg',
-			'pt': 'images/BR.svg'
-		}
+      $('.lang-picker li').removeClass('selected')
+      picker.addClass('selected')
+      enDesktopFlagsIds = {
+        'es': 'images/AR.svg',
+        'en': 'images/US.svg',
+        'pt': 'images/BR.svg'
+      }
 
-        if (isSpanish(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isSpanish(lang) && isMobile()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isEnglish(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-        } else if (isPortugese(lang) && isDesktop()) {
-            toggleFlags(enDesktopFlagsIds, lang)
-		} else if (isPortugese(lang) && isMobile()) {
-			toggleFlags(enDesktopFlagsIds, lang)
-		} else if (isEnglish(lang) && isMobile()) {
-			toggleFlags(enDesktopFlagsIds, lang)
-		}
-	}
+      if (isSpanish(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isSpanish(lang) && isMobile()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isEnglish(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isPortugese(lang) && isDesktop()) {
+          toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isPortugese(lang) && isMobile()) {
+        toggleFlags(enDesktopFlagsIds, lang)
+      } else if (isEnglish(lang) && isMobile()) {
+        toggleFlags(enDesktopFlagsIds, lang)
+      }
+    }
 	
 	function toggleFlags(flags, lang) {		
 		$('#currentFlag').attr('src', flags[lang])

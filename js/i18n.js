@@ -173,6 +173,13 @@ var translationsJson = {
 						"es": "Elecciones México 2021",
 						"pt": "Eleições México 2021"
 					}
+				},
+				"comparative": {
+					"2021": {
+						"en": "Comparative infographics 2021 elections",
+						"es": "Infografía comparativa elecciones 2021",
+						"pt": "Eleições 2021 comparativo infográfico"
+					}
 				}
 			},
 			"policy": {

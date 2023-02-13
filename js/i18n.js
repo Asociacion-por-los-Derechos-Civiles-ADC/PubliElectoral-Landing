@@ -165,13 +165,32 @@ var translationsJson = {
 						"en": "Chile Elections 2021",
 						"es": "Elecciones Chile 2021",
 						"pt": "Eleições Chile 2021"
-					}
+					},
+					"2022": {
+						"en": "Chile Plesbicite 2022",
+						"es": "Plesbicito Chile 2022",
+						"pt": "Plesbicito Chile 2022"
+					},
 				},
 				"mx": {
 					"2021": {
 						"en": "México Elections 2021",
 						"es": "Elecciones México 2021",
 						"pt": "Eleições México 2021"
+					}
+				},
+				"comparative": {
+					"2021": {
+						"en": "Comparative infographics 2021 elections",
+						"es": "Infografía comparativa elecciones 2021",
+						"pt": "Eleições 2021 comparativo infográfico"
+					}
+				},
+				"br": {
+					"2022": {
+						"en": "Brasil Elections 2022",
+						"es": "Elecciones Brasil 2022",
+						"pt": "Eleições Brasil 2022"
 					}
 				}
 			},
